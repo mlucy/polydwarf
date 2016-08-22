@@ -44,7 +44,6 @@ class World {
     }
   }
 
-
   fillDeposit(layer, height, width) {
     const r = 1 + srand(depositRadius);
     const d = 0.5 + srand(0.5);
