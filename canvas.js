@@ -13,7 +13,7 @@ offset = { x: 0, y: 0, z: 0 };
 
 const colorTable = [];
 for (let i = 0; i < 256; ++i) {
-  colorTable[i] = `hsl(${(i % 16) * (360 / 16)}, 100%, ${ 30 + Math.floor(i / 16) * (70 / 16)}%)`;
+  colorTable[i] = `hsl(${(i % 16) * (360 / 16)}, 100%, ${30 + Math.floor(i / 16) * (70 / 16)}%)`;
 }
 
 function drawWorld() {
